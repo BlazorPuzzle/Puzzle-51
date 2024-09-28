@@ -2,7 +2,7 @@
 
 ## Values That Bind
 
-YouTube Video: https://youtu.be/
+YouTube Video: https://youtu.be/oFtrPvwxd8I
 
 Blazor Puzzle Home Page: https://blazorpuzzle.com
 
