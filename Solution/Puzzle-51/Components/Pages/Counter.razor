@@ -1,0 +1,25 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+Counter String:
+<input @bind-value=CounterString @bind-value:event="oninput" />
+<br />
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    
+    private int currentCount = 0;
+    private string? CounterString { get; set; }
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        CounterString = currentCount.ToString();
+    }
+}
